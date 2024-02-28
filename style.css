@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;;
+    flex-direction: column-reverse;
+}
+h2{
+    position: relative;
+    width: 100px;
+    font-size: 30px;
+    rotate: -90deg;
+    left: -8%;
+    margin-top: -28%;
+    color: navy;
+}
+.wrapper{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    align-items: center;
+    border: 0.4px solid green;
+    border-radius: 15px 0 15px 0;
+    background: gainsboro;
+    justify-content: space-around;
+    background: black;
+    position: relative;
+}
+.creat{
+    color: black;
+    left: 6px;
+    bottom: 5px;
+    position: absolute;
+    font-family: "Frijole", system-ui;
+    font-weight: 200;
+    font-weight: normal;
+    font-size: 14px;
+}
+.wrapper:hover .creat{
+    color: white;
+    transition: all 3s ease-in-out;
+}
+.card-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 400px;
+    margin-top: 60px;
+    background: gray;
+    height: 450px;
+    border-radius: 13px 13px 0 13px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    z-index: 12;
+    color: black;
+    text-shadow: box-shadow: 0px 0px 400px 200px rgba(255,255,255,1);;
+}
+.card1:hover{
+    background: rgb(81, 81, 81);
+    transition: all 2s ease-in-out;
+    background: antiquewhite;
+    border-radius: 0;
+}
+.img{
+    width: 90%;
+    margin: 0 auto;
+    height: 280px;
+    border-radius: 8px;
+}
+.title{
+    width: 100%;
+    text-align: start;
+    justify-content: start;
+}
+.text{
+    width: 100%;
+    margin: 0 auto;
+    text-align: end;
+}
+.card2{
+    position: relative;
+    width: 400px;
+    margin-top: 60px;
+    background: gray;
+    height: 450px;
+    border-radius: 13px 13px 13px 0;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card2:hover{
+    background: rgb(81, 81, 81);
+    transition: all 2s ease-in-out;
+    border-radius: 0;
+    background: antiquewhite;
+}
+.lamp{
+    box-shadow: 0px 0px 400px 100px rgba(255,255,255,1);
+    width: 0.1px;
+    height: 0.1px;
+    background: rgb(110, 95, 95);
+    color: white;
+    border: none;
+    margin: -80px 483px;
+    position: absolute;
+    z-index: 1;
+}
+.card1:hover .lamp{
+    box-shadow: 0px 0px 900px 150px rgba(255,255,255,1);
+    margin: 210px 190px;
+    border: none;
+    transition: all 2s ease-in-out;
+}
+.card1:hover .img{
+    filter: sepia(70%) brightness(100%);
+    transition: all 2s ease-in-out;
+}
+.lamp1{
+    box-shadow: 0px 0px 400px 100px rgba(255,255,255,1);
+    width: 0.1px;
+    height: 0.1px;
+    background: rgb(110, 71, 71);
+    color: transparent;
+    border: none;
+    margin: 515px -101px;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+.card2:hover .lamp1{
+    box-shadow: 0px 0px 900px 150px rgba(255,255,255,1);
+    margin: 210px 183px;
+    transition: all 2s ease-in-out;
+}
+.card2:hover .img{
+    filter: sepia(70%) brightness(100%);
+    transition: all 2s ease-in-out;
+}
